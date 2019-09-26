@@ -3,13 +3,12 @@ title: Lecture 1 Notes
 date: 20 September
 ---
 
-# Lecture 1
+# Lecture 1: Basic Syntax
 
-## Basic Syntaxt
-In this part we will look at the basic syntaxt of the language, the basics that you
+In this part we will look at the basic syntax of the language, the basics that you
 will use throughout the whole course.
 
-### Printing on the screen
+## Printing on the screen
 
 ```python
 print("Hello World")
@@ -19,7 +18,7 @@ This code will print show on the screen the message : "Hello World".
 `print` is an example of a function, we will be covering what functions are later on,
 but there are some functions 
 
-### Variables and types
+## Variables and types
 Variables are used to store information to be referenced and manipulated in a 
 computer program. They also provide a way of labeling data with a descriptive name, 
 so our programs can be understood more clearly by the reader and ourselves. 
@@ -81,7 +80,7 @@ a = int(a)
 In this example we use the function `str` to convert the variable a from an integer to a string, then
 we use the function `int` to convert it back to an integer.
 
-### Working with integers and floats
+## Working with integers and floats
 
 Lets start with the most basic operations:
 
@@ -129,7 +128,7 @@ x *= 2
 The operator `*=` is a combination of `*` and the equal sign we use to assign a value to a variable. The operator, in this case `*`,
 can be replaced by any of the operators showed before E.g. : `//=`, `+=`, `-=`...
 
-### Input and output
+## Input and output
 
 If we want to make our program interactive we need to have some sort of input from the user.
 In this section we will cover the most basic way of getting an input, through the command line
@@ -145,7 +144,7 @@ The input of the user will be stored into the variable `a` as a string. We will 
 to show the user whan the input was. The `+` sign is also used for strings, this is called **string-concatenation**,
 which is when we simply add two strings together into one string.
 
-### Challenge
+## Challenge
 
 With the knowledge you got from this lecture your task is to create a simple program which asks the user
 to input **two integers** and then it takes those two numbers and executes at least **3 different operations** on them
