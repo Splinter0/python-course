@@ -1,7 +1,9 @@
+/*
 ---
 title: Lecture X Notes
 date: September xx, 2019
 ---
+*/
 # Lecture X: Loops and Arrays, Loops and Arrays, Loops...
 
 ## Introduction to Arrays
