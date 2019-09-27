@@ -8,7 +8,7 @@ date: September xx, 2019
 
 ## Introduction to Arrays
 Arrays are another way to store data. In a nutshell, an array contains a series of 
-variables that are ordered with numbers from 0 to some number (integer) $n$. 
+variables that are ordered with numbers from 0 to some number (integer) n. 
 Note that if you want to get the 1st element of an array, you must access the 0th element.
 This is called **0-indexing**. 
 A list can contain multiple different types of variables in Python but this is different
@@ -38,11 +38,11 @@ to the end of the array and after the user is done inputting numbers, we take th
 In other words: Instead of having 
 
 ```python
-user_input_1 = input()
-user_input_2 = input()
-user_input_3 = input()
-user_input_4 = input()
-user_input_5 = input()
+user_input_1 = raw_input()
+user_input_2 = raw_input()
+user_input_3 = raw_input()
+user_input_4 = raw_input()
+user_input_5 = raw_input()
 ...
 ```
 
@@ -64,6 +64,30 @@ An example of a 2-D array would be:
 two_dee = [["this", "is a", "nested array"], [1,2,3,4], [True, True, False]]
 ```
 
+## Modifying Arrays
+In order to add elements to an array you can do
+```python
+myArray = []
+myArray.append(1)
+myArray.append(4)
+myArray.append(41)
+# myArray = [1, 4, 41]
+myArray.remove(4)
+# myArray = [1, 41]
+```
+
+'.append(a)' adds a value of 'a' into the array at the end.
+'.remove(a)' removes a value 'a' from the array, if it is not found it returns an error.
+
+## Joining Lists
+Joining two lists is easy in Python! Here is an easy example:
+
+```python
+array1 = ["Hello", "World!"]
+array2 = ["Bye", "Space!"]
+print(array1 + array2)
+```
+Guess what this program prints to the terminal.
 
 ## Introduction to Loops
 Loops are a way of repeating certain code snippets. 
@@ -94,11 +118,16 @@ This is usually bad practice in programming as there is no real way to quit the 
 Lets say that you want to take a sum of some array filled with numbers. For this you can use the 'in' keyword.
 
 ```python
-sum = 0
+num_array = [...]
+total = 0
 for num in num_array:
-	sum += num
-print(sum)
+	total += num
+print(total)
 ```
 
 This snippet will take some array called 'num_array' and sum all of it and then print the sum to the user.
 
+## Challenge!
+Make a Python program that that asks the user to input any number of numbers from the user
+and then calculates the sum, the average, and the range of input. Make sure that the 
+users actually is inputting numbers instead of nonsense
