@@ -56,7 +56,7 @@ Using an array makes the code much more clear and easier to modify.
 ### Advanced Arrays
 As already said, arrays are basically a collection of variables in a variable. So what about arrays inside arrays? Array-ception. 
 
-Of course, this can be done in Python! These are called **multidimensional arrays**. They can be very useful in many computing 
+Of course, this can be done in Python! These are called **nested arrays**. They can be very useful in many computing 
 problems. 
 
 An example of a 2-D array would be:
@@ -77,17 +77,20 @@ myArray.remove(4)
 ```
 
 '.append(a)' adds a value of 'a' into the array at the end.
+
 '.remove(a)' removes a value 'a' from the array, if it is not found it returns an error.
 
+There is also a function called '.insert(i, elem)' which takes an index of 'i' and puts 'elem' into that location.
+
 ## Joining Lists
-Joining two lists is easy in Python! Here is an easy example:
+Joining two lists is easy in Python! Here is an example:
 
 ```python
-array1 = ["Hello", "World!"]
-array2 = ["Bye", "Space!"]
+array1 = ["Hello ", "World! "]
+array2 = ["Bye ", "Space!"]
 print(array1 + array2)
 ```
-Guess what this program prints to the terminal.
+Guess what this program will print.
 
 ## Introduction to Loops
 Loops are a way of repeating certain code snippets. 
@@ -103,7 +106,9 @@ for i in range(0,100):
 This specific example is a 'for' loop. It takes a variable, in this case i, that 
 changes every time the loop goes on to another iteration.
 
-Another loop would be a 'while' loop. Instead of changing a variable, it takes a
+## While Loops
+
+Another kind of loop would be a 'while' loop. Instead of changing a variable, it takes a
 statement like in an 'if' statement and loops as long as this statement is true.
 For example this loop would print "hello" infinitely as the statement is always 'True':
 
@@ -127,7 +132,10 @@ print(total)
 
 This snippet will take some array called 'num_array' and sum all of it and then print the sum to the user.
 
+The 'in' keyword basically goes through all the element in an array and is very useful compared to writing the for loop
+with indexes. 
+
 ## Challenge!
 Make a Python program that that asks the user to input any number of numbers from the user
-and then calculates the sum, the average, and the range of input. Make sure that the 
-users actually is inputting numbers instead of nonsense
+and then calculates the sum, the average, and the range of input. As an additional requirement, 
+make sure that the user is actually inputting numbers instead of nonsense. 
