@@ -1,6 +1,6 @@
 ---
 title: Lecture 1 Notes
-date: 20 September
+date: 4th of October
 ---
 
 # Lecture 1: Basic Syntax
@@ -33,7 +33,7 @@ c = 1.2
 d = 'c'
 e = False
 ```
-
+## 
 This is how you **define** variables in Python. Python is a **dynamically-typed** language,
 which means that the **types** of variables don't have to be specified when defining them, 
 and that a variable can change its type and value after being defined. 
@@ -50,7 +50,7 @@ and **integer**. There are many different types in computer science but for now 
 a = "Hello World"
 print(a)
 ```
-
+##
 In this example we have defined a string variable `a` and set its value to `"Hello World"` 
 and then **parsed** that variable into the `print` function, this will print the same thing 
 as our previous example.
@@ -68,7 +68,7 @@ This is an example showing that Python is dynamically-typed language, as you can
 Hello World
 1
 ```
-
+##
 We can also convert variables to different types (not always), for example:
 
 ```python
@@ -99,18 +99,21 @@ value of `result` is `2.0`. If you wanted to get an integer simply use `//` inst
 integers and floats are treated similarly, which means that we can add a float and an integer without having to
 convert any of them.
 
-**Operators :**
-- `+` Addition
-- `-` Subtraction
-- `*` Multiplication
-- `/` Division
-- `//` Floor division
-- `**` Exponents
-- `%` Modulus
+##
+| Operator | Action              |
+|----------|---------------------|
+| +        | Addition            |
+| -        | Substraction        |
+| *        | Multiplication      |
+| /        | Division            |
+| //       | Floor Division      |
+| **       | Exponent            |
+| %        | Modulus (remainder) |
 
 These are the basic operators, with the introduction of **libraries** which we will explain further on the arithmetic
 you can do will expand.
 
+##
 These operators can also be used when we assign a value to a variable. For example:
 
 ```python
@@ -125,6 +128,7 @@ x = 2
 x *= 2
 ```
 
+##
 The operator `*=` is a combination of `*` and the equal sign we use to assign a value to a variable. The operator, in this case `*`,
 can be replaced by any of the operators showed before E.g. : `//=`, `+=`, `-=`...
 
