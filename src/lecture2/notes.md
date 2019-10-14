@@ -191,7 +191,18 @@ sport = "Swimming"
 
 ## Challenge
 
-Make any program that comes to your mind using as many operators as possible. Remember the course material
-from lesson 1!
+1) Make any program that comes to your mind using as many operators as possible. Ask the user for 
+an input, have some logic to check the input and then process that input however you want
+and give the user the result.Remember the course material from the previous lesson!
+2) Create a profile maker, prompt the user for his name/age/profession etc.
+Make sure you check each type of input you are given, e.g. make sure the age is always an `int`.
+Then once you have the user data, save everything to a file. If you forgot how to work
+with files in python here is something to help you:
+```python
+f = open("myfile.txt", "w")
+f.write("Hello World!")
+f.close()
+```
+
 
 
