@@ -203,6 +203,7 @@ f = open("myfile.txt", "w")
 f.write("Hello World!")
 f.close()
 ```
-
-
-
+1) You are given 2 variables: is_bob_home and is_it_night  (these variables are either True or False). Write an if-else expression that accounts for all of these variables and follows the following logic:
+	1) If bob is home and it is night, print "bob should go to sleep"
+	2) If it is not home print "bob should go home" and if it is night print "and then sleep"
+	3) if bob is home and it is not night print "bob has nothing to do"
